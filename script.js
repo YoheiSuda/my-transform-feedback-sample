@@ -10,8 +10,8 @@
 	var resetFlg;
 	canvasWidth = window.innerWidth;
 	canvasHeight = window.innerHeight;
-	imageWidth = 300;
-	imageHeight = 300;
+	imageWidth = 400;
+	imageHeight = 400;
 
 	window.addEventListener('load', function () {
 		// canvas initialize
@@ -259,7 +259,6 @@
 			}
 
 			function resize() {
-				console.log('hello')
 				canvas.width = window.innerWidth;
 				canvas.height = window.innerHeight;
 				mat.lookAt([0.0, 0.0, 3.0], [0.0, 0.0, 0.0], [0.0, 1.0, 0.0], vMatrix);
